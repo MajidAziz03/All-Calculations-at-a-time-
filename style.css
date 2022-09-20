@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+ outline: none;
+}
+
+.main-dabo{
+    height: 100vh;
+    width: 100vw;
+    background-color: #bc6c25;
+
+}
+
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.box{
+    margin-top: 12px;
+    border-right: 1px solid black;
+    
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-right: 12px;
+}
+button{
+    padding: 7px 20px;
+margin-top: 15px;
+border-radius: 30px;
+text-align: center;
+background-color: crimson;
+border: 2px solid crimson;
+color: white;
+}
+
+input{
+    padding: 7px 20px;
+border-radius: 25px;
+margin: 4px;
+}
+
